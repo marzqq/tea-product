@@ -1,193 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Teh</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ZUEGERRRR</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Boostrap Icon-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <style>
+   body {
+       background-color: #317e7e;
+   }
 
-
-
-
-    <!-- Boostrap Icon-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+   .display-4 {
+       font-family: 'Lucida Handwriting', fantasy;
+       color: #F0EBE3;
+   }
+   .display-3 {
+       font-family: 'Lucida Handwriting', fantasy;
+       color: #050505;
+   }
+   .lead {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+       color: #ded7d8;
+   }
+   .btn {
+       background-color: #317e7e;
+   }
+   .pesanbox {
+       background-color: #F0EBE3;
+   }
+   .footer {
+       background-color: #F0EBE3;
+   }
+   .navbar {
+       background-color: #F0EBE3;
+   }
+   </style>
 </head>
 
-
-
-<body class="bg-secondary">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-    </nav>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" width="30" class="d-inline-block align-top" alt="">
-                BLe Cereals
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="view_data.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php">Order</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Container 1 -->
-    <div class="jumbotron mt-5">
-        <div class="container-fluid text-center text-dark">
-            <h1 class="display-4">Selamat Datang di Toko Tri Aestivum TIP</h1>
-            <p class="lead">Sereal bernutrisi tinggi dengan gandum utuh berkualitas </p>
-        </div>
-    </div>
-    <!-- Slider-->
-    <div id="carouselExampleIndicators" class="carousel slide mb-5 w-75 mx-auto" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/01.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/02.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/03.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/04.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fff" fill-opacity="1"
-            d="M0,64L34.3,80C68.6,96,137,128,206,122.7C274.3,117,343,75,411,69.3C480,64,549,96,617,117.3C685.7,139,754,149,823,154.7C891.4,160,960,160,1029,133.3C1097.1,107,1166,53,1234,32C1302.9,11,1371,21,1406,26.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-        </path>
-    </svg>
-    <!--Container 2-->
-    <div class="pb-3 mb-5 container-fluid text-center bg-white">
-        <!--Card-->
-        <h1><b>Praktikum</b></h1>
-        <div class="card-group pb-3">
-            <div class="card">
-                <img src="img/01.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">GAMTEK</h5>
-                    <p class="card-text">Praktikum Gambar Teknik bertujuan agar mahasiswa dapat menggambar teknik
-                        menggunakan software Autocad</p>
-                    <p class="card-text"><a
-                            href="https://tip.ub.ac.id/laboratorium/lab-komputasi-dan-sistem-agroindustri/"
-                            target="_blank"><small class="btn btn-primary"> Go Somewhere</small></p></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/02.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">PEKMKOM</h5>
-                    <p class="card-text">Praktikum Pemrogaman Komputer menggunakan bahasa pemograman Python</p>
-                    <p class="card-text"><a
-                            href="https://tip.ub.ac.id/laboratorium/lab-komputasi-dan-sistem-agroindustri/"
-                            target="_blank"><small class="btn btn-primary">Go Somewhere</small></p></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/03.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">STATIN</h5>
-                    <p class="card-text">Praktikum Statistika Industri bertujuan penggunaan statistik</p>
-                    <p class="card-text"><a
-                            href="https://tip.ub.ac.id/laboratorium/lab-komputasi-dan-sistem-agroindustri/"
-                            target="_blank"><small class="btn btn-primary">Go Somewhere</small></p></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/04.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">STI</h5>
-                    <p class="card-text">Praktikum Sistem dan Teknologi Informasi bertujuan agar mahasiswa dapat membuat
-                        website sederhana yang mengakses database </p>
-                    <p class="card-text"><small class="btn btn-primary">Go Somewhere</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Footer-->
-    <footer class="container-fluid">
-        <ul class="nav justify-content-center">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active text-white"
-                        href="https://tip.ub.ac.id/laboratorium/lab-komputasi-dan-sistem-agroindustri/">Lab KSA</a>
+<body class="">
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg fixed-top">
+       <div class="container-fluid">
+           <a class="navbar-brand" href="#">
+               <img src="img/logo.png" width="30" class="d-inline-block align-top" alt=""> Z U E G E E R R R R </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"aria-controls ="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="login.php">List Menu</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white"
-                        href="https://api.whatsapp.com/send/?phone=%2B6282146145084&text&type=phone_number&app_absent=0">Contact</a>
+                   <li class="nav-item">
+                       <a class="nav-link" href="view_data.php">Order</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="login.php">About Us</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="login.php">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white"
-                        href="hhttps://www.instagram.com/reel/C4xtI1uSRV-/?igsh=ZDk3NGtoeXl4c2ds">FAQs</a>
+               </ul>
+               <form class="d-flex" role="search">
+                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+               </form>
+           </div>
+       </div>
+   </nav>
+   <!-- Jumbotron -->
+   <!-- Container 1 -->
+   <div class="jumbotron mt-0 pt-2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F0EBE3" fill-opacity="1" d="M0,64L7.3,64C14.5,64,29,64,44,74.7C58.2,85,73,107,87,144C101.8,181,116,235,131,213.3C145.5,192,160,96,175,85.3C189.1,75,204,149,218,181.3C232.7,213,247,203,262,165.3C276.4,128,291,64,305,58.7C320,53,335,107,349,149.3C363.6,192,378,224,393,213.3C407.3,203,422,149,436,122.7C450.9,96,465,96,480,128C494.5,160,509,224,524,250.7C538.2,277,553,267,567,224C581.8,181,596,107,611,85.3C625.5,64,640,96,655,122.7C669.1,149,684,171,698,154.7C712.7,139,727,85,742,85.3C756.4,85,771,139,785,144C800,149,815,107,829,101.3C843.6,96,858,128,873,122.7C887.3,117,902,75,916,58.7C930.9,43,945,53,960,90.7C974.5,128,989,192,1004,186.7C1018.2,181,1033,107,1047,101.3C1061.8,96,1076,160,1091,170.7C1105.5,181,1120,139,1135,122.7C1149.1,107,1164,117,1178,138.7C1192.7,160,1207,192,1222,176C1236.4,160,1251,96,1265,101.3C1280,107,1295,181,1309,176C1323.6,171,1338,85,1353,64C1367.3,43,1382,85,1396,128C1410.9,171,1425,213,1433,234.7L1440,256L1440,0L1432.7,0C1425.5,0,1411,0,1396,0C1381.8,0,1367,0,1353,0C1338.2,0,1324,0,1309,0C1294.5,0,1280,0,1265,0C1250.9,0,1236,0,1222,0C1207.3,0,1193,0,1178,0C1163.6,0,1149,0,1135,0C1120,0,1105,0,1091,0C1076.4,0,1062,0,1047,0C1032.7,0,1018,0,1004,0C989.1,0,975,0,960,0C945.5,0,931,0,916,0C901.8,0,887,0,873,0C858.2,0,844,0,829,0C814.5,0,800,0,785,0C770.9,0,756,0,742,0C727.3,0,713,0,698,0C683.6,0,669,0,655,0C640,0,625,0,611,0C596.4,0,582,0,567,0C552.7,0,538,0,524,0C509.1,0,495,0,480,0C465.5,0,451,0,436,0C421.8,0,407,0,393,0C378.2,0,364,0,349,0C334.5,0,320,0,305,0C290.9,0,276,0,262,0C247.3,0,233,0,218,0C203.6,0,189,0,175,0C160,0,145,0,131,0C116.4,0,102,0,87,0C72.7,0,58,0,44,0C29.1,0,15,0,7,0L0,0Z"></path></svg>
+       <div class="container-fluid text-center p-0">
+           <ul class="display-4 d-inline">
+                <li> Z U E G E R R R R </li>
+                <li> Z U E G E R R R R </li>
+                <li> Z U E G E R R R R </li>
+            </ul>
+           <p class="lead pb-5">Teh alami dengan varian rasa yang menyegarkan dan menyehatkann </p>
+       </div>
+   </div>
+   <!-- Slider-->
+   <div id="carouselExampleIndicators" class="carousel slide mb-5 w-75 mx-auto" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+               aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+               aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+               aria-label="Slide 3"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+               aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+           <div class="carousel-item active">
+               <img src="img/02.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+               <img src="img/02.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+               <img src="img/03.jpg" class="d-block w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+               <img src="img/04.jpg" class="d-block w-100" alt="...">
+           </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+           data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+           data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+       </button>
+   </div>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F0EBE3" fill-opacity="1" d="M0,64L7.3,64C14.5,64,29,64,44,74.7C58.2,85,73,107,87,144C101.8,181,116,235,131,213.3C145.5,192,160,96,175,85.3C189.1,75,204,149,218,181.3C232.7,213,247,203,262,165.3C276.4,128,291,64,305,58.7C320,53,335,107,349,149.3C363.6,192,378,224,393,213.3C407.3,203,422,149,436,122.7C450.9,96,465,96,480,128C494.5,160,509,224,524,250.7C538.2,277,553,267,567,224C581.8,181,596,107,611,85.3C625.5,64,640,96,655,122.7C669.1,149,684,171,698,154.7C712.7,139,727,85,742,85.3C756.4,85,771,139,785,144C800,149,815,107,829,101.3C843.6,96,858,128,873,122.7C887.3,117,902,75,916,58.7C930.9,43,945,53,960,90.7C974.5,128,989,192,1004,186.7C1018.2,181,1033,107,1047,101.3C1061.8,96,1076,160,1091,170.7C1105.5,181,1120,139,1135,122.7C1149.1,107,1164,117,1178,138.7C1192.7,160,1207,192,1222,176C1236.4,160,1251,96,1265,101.3C1280,107,1295,181,1309,176C1323.6,171,1338,85,1353,64C1367.3,43,1382,85,1396,128C1410.9,171,1425,213,1433,234.7L1440,256L1440,320L1432.7,320C1425.5,320,1411,320,1396,320C1381.8,320,1367,320,1353,320C1338.2,320,1324,320,1309,320C1294.5,320,1280,320,1265,320C1250.9,320,1236,320,1222,320C1207.3,320,1193,320,1178,320C1163.6,320,1149,320,1135,320C1120,320,1105,320,1091,320C1076.4,320,1062,320,1047,320C1032.7,320,1018,320,1004,320C989.1,320,975,320,960,320C945.5,320,931,320,916,320C901.8,320,887,320,873,320C858.2,320,844,320,829,320C814.5,320,800,320,785,320C770.9,320,756,320,742,320C727.3,320,713,320,698,320C683.6,320,669,320,655,320C640,320,625,320,611,320C596.4,320,582,320,567,320C552.7,320,538,320,524,320C509.1,320,495,320,480,320C465.5,320,451,320,436,320C421.8,320,407,320,393,320C378.2,320,364,320,349,320C334.5,320,320,320,305,320C290.9,320,276,320,262,320C247.3,320,233,320,218,320C203.6,320,189,320,175,320C160,320,145,320,131,320C116.4,320,102,320,87,320C72.7,320,58,320,44,320C29.1,320,15,320,7,320L0,320Z"></path></svg>
+   <!--Container 2-->
+   <div class="pesanbox pb-0 mb-0 container-fluid text-center">
+       <!--Card-->
+       <h1 class=" display-3 pb-4 mb-3"><b>Yuk buruan cobain — sekali teguk, dijamin ketagihan! <i class="bi bi-emoji-smile"></i></b></h1>
+       <div class="card-group pb-3">
+           <div class="card bg-transparent">
+               <img src="img/02.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                   <h5 class="card-title">TEH A</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt pariatur a doloremque vero necessitatibus repellendus sapiente, modi quo est, vel magnam inventore reiciendis odit.</p>
+                   <p class="card-text"><a href="view_data.php"><small class="btn btn-dark">
+                               <i class="bi bi-send-plus-fill px-4"></i></small>
+                   </p></a>
+               </div>
+           </div>
+           <div class="card bg-transparent">
+               <img src="img/02.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                   <h5 class="card-title">TEH B</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum quo fugiat animi tempora iusto eius ex maiores, sed, sit nostrum facilis possimus harum? Ducimus?</p>
+                   <p class="card-text"><a href="view_data.php"><small class="btn btn-dark"><i
+                                   class="bi bi-send-plus-fill px-4"></i></small></small></p></a>
+               </div>
+           </div>
+           <div class="card bg-transparent">
+               <img src="img/03.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                   <h5 class="card-title">TEH C</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus explicabo ex ipsam, pariatur, neque id earum a modi quae maiores quod quia deserunt, dolores aperiam!</p>
+                   <p class="card-text"><a href="view_data.php"><small class="btn btn-dark"><i
+                                   class="bi bi-send-plus-fill px-4"></i></small></small>
+                   </p></a>
+               </div>
+           </div>
+           <div class="card bg-transparent">
+               <img src="img/04.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                   <h5 class="card-title">SEREAL CIRCLE</h5>
+                   <p class="card-text">sereal sehat yang membantu memulai hari dengan energi yang baik dan memberikan
+                       nutrisi yang diperlukan untuk memenuhi kebutuhan tubuh.</p>
+                   <p class="card-text"><a href="view_data.php"><small class="btn btn-dark"><i
+                                   class="bi bi-send-plus-fill px-4"></i></small></small>
+                   </p></a>
+               </div>
+           </div>
+       </div>
+       
+   </div>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F0EBE3" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,80C384,53,480,43,576,58.7C672,75,768,117,864,154.7C960,192,1056,224,1152,202.7C1248,181,1344,107,1392,69.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+   <!--Footer-->
+   <footer class="container-fluid p-0">
+       <ul class="nav justify-content-center">
+           <ul class="nav">
+               <li class="nav-item">
+                   <a class="nav-link active text-white" href="#">ZUEGERRRR</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link text-white"
+                       href="https://api.whatsapp.com/send/?phone=%2B6282146145084&text&type=phone_number&app_absent=0">Contact</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link text-white"
+                       href="hhttps://www.instagram.com/reel/C4xtI1uSRV-/?igsh=ZDk3NGtoeXl4c2ds">FAQs</a>
+               </li>
+               
+           </ul>
+            <ul class="nav justify-content-sm-end">
+                <li class="">Created <i class="bi bi-heart-fill text-danger"></i> by <a href="#"
+                class="text-dark fw-bold ">ZUEGERRRR</a>
                 </li>
             </ul>
-    </footer>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#f8f9fa" fill-opacity="1"
-            d="M0,224L60,224C120,224,240,224,360,197.3C480,171,600,117,720,112C840,107,960,149,1080,160C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-        </path>
-    </svg>
+       </ul>
+      
 
-    <!-- Footer 2-->
-    <footer class=" bg-light text-dark text-center p-1 ">
-        <p class="p-2">Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="#"
-                class="text-dark fw-bold">Mahbubi Irzaq</a>
-    </footer>
-    <!--End Footer 2-->
-
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-
+   </footer>
+   <!--End Footer 2-->
+   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
